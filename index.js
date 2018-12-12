@@ -10,17 +10,17 @@
 (function(){
 
 const websiteTextGetter = require('./includes/getText.js');
+// const htmlParser = require...  this will be a module to parse returned html
+// algorithms and logic for finding keywords will be in this module
 
 // testing object to pass to getText
-let testObject = { url:'https://news.ycombinator.com'};
+let testObject0 = { url:'https://jobs.lever.co/tivix/b2a3241c-9349-4658-aa82-052e145c7d58', company: 'tivix', title: 'backend-software-engineer'};
+let testObject1 = { url: 'https://www.ainfosec.com/careers/current-openings/?p=job/omUf8fwn&nl=1', company: 'ais', title: 'entry-level-software-engineer'};
 
-console.log(websiteTextGetter(testObject)
+websiteTextGetter(testObject0)
   .then(function(data){
     let $ = data;
-    $('span.comhead').each(function(i, element){
-      let a = $(this).prev();
-      console.log(a.text());
-    });
-  })
-);
+		console.log(Object.keys($(this).options));
+		let re = /have/i;
+  });
 })();
