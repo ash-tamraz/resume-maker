@@ -1,4 +1,9 @@
 
+// Ideally this module will grab the keywords from a job
+// ad page.
+// I'm not exactly sure if this module will just grab
+// a page's content and then pass the content to another 
+// module for the parsing logic, or just parse the content itself.
 
 "use strict";
 
