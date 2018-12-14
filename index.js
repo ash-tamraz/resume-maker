@@ -14,8 +14,8 @@ const htmlParser = require('./includes/htmlParser.js');//...  this will be a mod
 // algorithms and logic for finding keywords will be in this module
 
 // testing object to pass to getText
-let testObject0 = { url:'https://jobs.lever.co/tivix/b2a3241c-9349-4658-aa82-052e145c7d58', company: 'tivix', title: 'backend-software-engineer'};
-let testObject1 = { url: 'https://www.ainfosec.com/careers/current-openings/?p=job/omUf8fwn&nl=1', company: 'ais', title: 'entry-level-software-engineer'};
+//let testObject0 = { url:'url goes here', company: '', title: 'title goes here'};
+//let testObject1 = { url: 'url goes here', company: '', title: ''};
 
 htmlParser;
 //websiteTextGetter(testObject0)

@@ -1,5 +1,10 @@
 
 
+// This is actually not working. Anti-web scraping prevents
+// scraping the relevant job ad info. For the time being, I'll
+// manually create a handful of files to use as test files, and
+// focus on implementing the qualifications/keyword finding.
+
 
 "use strict";
 
